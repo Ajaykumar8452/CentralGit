@@ -2,77 +2,350 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ajay Yadav | Cloud & DevOps Engineer</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ajay Yadav — Cloud & DevOps Engineer</title>
+  <meta name="description"
+    content="Ajay Yadav — Cloud & DevOps Engineer specializing in AWS, Terraform, CI/CD and Linux automation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Ajay Yadav</h1>
-        <p>Cloud & DevOps Engineer | AWS | Networking | Linux | Automation</p>
-    </header>
-
-    <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        <a href="#contact">Lets Talk</a>
-
-        
-
+  <header>
+    <nav class="wrap">
+      <a href="#top" class="brand">ajay@cloud:~$<span class="cursor"></span></a>
+      <ul class="nav-links">
+        <li><a href="#about" data-nav>About</a></li>
+        <li><a href="#skills" data-nav>Skills</a></li>
+        <li><a href="#projects" data-nav>Projects</a></li>
+        <li><a href="#experience" data-nav>Experience</a></li>
+        <li><a href="#contact" data-nav>Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Let's Talk</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </nav>
+  </header>
 
-    <section id="about">
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero wrap">
+      <div>
+        <div class="eyebrow">status --open-to-work</div>
+        <h1>Hi, I'm <span>Ajay Yadav</span></h1>
+        <div class="role">Cloud &amp; DevOps Engineer <em>·</em> AWS Certified <em>·</em> Terraform <em>·</em> CI/CD
+          <em>·</em> Linux</div>
+        <p class="lede">4+ years at Wipro Technologies designing AWS infrastructure, automating cost optimization with
+          Python and Lambda, and turning manual ops into repeatable, version-controlled pipelines.</p>
+        <div class="contact-strip">
+          <a href="tel:+918452909177">+91 84529 09177</a>
+          <a href="mailto:ajayyadav8452@gmail.com">ajayyadav8452@gmail.com</a>
+          <a href="https://www.linkedin.com/in/ajay-yadav24/" target="_blank" rel="noopener">linkedin.com/in/ajay</a>
+          <span>Mumbai, India</span>
+        </div>
+        <div class="cta-row">
+          <a href="#projects" class="btn btn-primary">View Projects →</a>
+          <a href="Ajay_Yadav_Cloud_DevOps_Engineer_Resume.pdf" class="btn btn-ghost" download>Download Resume</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/Ajaykumar8452/" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.02c-3.34.72-4.04-1.6-4.04-1.6-.55-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.53.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.49 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5Z" />
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/ajay-yadav24/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.71h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96V21h-4V9Z" />
+            </svg>
+          </a>
+          <a href="mailto:ajayyadav8452@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13ZM4 6l8 5.5L20 6M4 18h16V7.8l-8 5.5-8-5.5V18Z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span></span><span></span><span></span>
+          <span class="terminal-title">session — ajay@aws-cloud</span>
+        </div>
+        <div class="terminal-body" id="terminalBody"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="wrap">
+      <div class="section-head" data-reveal>
+        <div class="eyebrow">profile</div>
         <h2>About Me</h2>
-        <p>
-            I am a System Engineer with 4.5+ years of experience in infrastructure,
-            cloud computing, and enterprise monitoring. I specialize in AWS,
-            Linux administration, and DevOps fundamentals.
-            This portfolio is deployed on AWS S3 using GitHub Actions.
-        </p>
+      </div>
+      <div class="about-grid">
+        <div data-reveal>
+          <p>I'm a Cloud &amp; DevOps Engineer with 4+ years of experience at Wipro Technologies, specializing in cloud
+            infrastructure automation, VPC networking, and production operations across dev, QA, and production
+            environments. I'm proficient across EC2, RDS, VPC, IAM, S3, ALB, EBS, Lambda, EventBridge, CloudWatch, and
+            CloudFormation.</p>
+          <p>I built Python/Boto3 automation to detect idle EC2 instances and implemented Lambda-based scheduling that
+            cut cloud compute costs by ~30%. I also work with Terraform and CloudFormation for IaC, Docker for
+            containerization, and Kubernetes fundamentals for orchestration — and I'm currently completing my MTech in
+            Cloud Computing and Distributed Systems.</p>
+        </div>
+        <div class="stat-grid" data-reveal>
+          <div class="stat-card">
+            <div class="num">4+</div>
+            <div class="label">YEARS AT WIPRO</div>
+          </div>
+          <div class="stat-card">
+            <div class="num">~30%</div>
+            <div class="label">COMPUTE COST CUT</div>
+          </div>
+          <div class="stat-card">
+            <div class="num">AWS SAA</div>
+            <div class="label">+ CLOUD PRACTITIONER</div>
+          </div>
+          <div class="stat-card">
+            <div class="num">MTech</div>
+            <div class="label">CLOUD COMPUTING · FINAL YEAR</div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="skills">
+    <!-- SKILLS -->
+    <section id="skills" class="wrap">
+      <div class="section-head" data-reveal>
+        <div class="eyebrow">stack</div>
         <h2>Skills</h2>
-        <ul>
-            <li>AWS (EC2, S3, IAM, CloudWatch, Lambda)</li>
-            <li>Linux Administration</li>
-            <li>Git & GitHub</li>
-            <li>CI/CD (GitHub Actions)</li>
-            <li>Monitoring (PRTG, OpsRamp)</li>
-        </ul>
-    </section>
+        <p>Grouped by where each tool sits in the pipeline — click a category to filter.</p>
+      </div>
 
-    <section id="projects">
-        <h2>Projects</h2>
-
-        <div class="project-card">
-            <h3>Static Website Deployment on AWS S3</h3>
-            <p>
-                Hosted a static portfolio website on AWS S3 and automated deployment
-                using GitHub Actions.
-            </p>
-            <button onclick="showAlert()">View Details</button>
+      <div data-reveal>
+        <div class="tabs" id="tabs">
+          <button class="tab-btn active" data-tab="compute">Cloud &amp; Compute</button>
+          <button class="tab-btn" data-tab="iac">IaC, Containers &amp; Automation</button>
+          <button class="tab-btn" data-tab="observability">Observability &amp; Security</button>
+          <button class="tab-btn" data-tab="network">Networking &amp; Linux</button>
+          <button class="tab-btn" data-tab="other">Databases, Code &amp; Tools</button>
         </div>
 
+        <div class="chip-panel active" data-panel="compute">
+          <span class="chip">EC2</span><span class="chip">S3</span><span class="chip">ALB</span>
+          <span class="chip">Route 53</span><span class="chip">RDS</span><span class="chip">EBS</span>
+          <span class="chip">ECS Fargate</span><span class="chip">Lambda</span><span class="chip">EventBridge</span>
+          <span class="chip">VPC</span>
+        </div>
+        <div class="chip-panel" data-panel="iac">
+          <span class="chip">Terraform (modular, remote state)</span><span class="chip">AWS CloudFormation</span>
+          <span class="chip">Docker</span><span class="chip">Kubernetes (Pods, Deployments, Services, ConfigMaps)</span>
+          <span class="chip">GitHub Actions</span><span class="chip">AWS CLI</span><span class="chip">Boto3</span>
+          <span class="chip">Shell Scripting</span>
+        </div>
+        <div class="chip-panel" data-panel="observability">
+          <span class="chip">CloudWatch</span><span class="chip">Secrets Manager</span><span class="chip">IAM</span>
+        </div>
+        <div class="chip-panel" data-panel="network">
+          <span class="chip">VPC Design</span><span class="chip">DNS</span><span class="chip">DHCP</span>
+          <span class="chip">NAT</span><span class="chip">VPN</span><span class="chip">OSPF</span><span
+            class="chip">BGP</span>
+          <span class="chip">VLANs</span><span class="chip">Linux Administration (Ubuntu/RHEL)</span>
+          <span class="chip">Windows Server</span><span class="chip">Git &amp; GitHub</span>
+        </div>
+        <div class="chip-panel" data-panel="other">
+          <span class="chip">Python</span><span class="chip">Java</span><span class="chip">C/C++</span>
+          <span class="chip">JavaScript</span><span class="chip">HTML/CSS</span>
+          <span class="chip">Oracle SQL</span><span class="chip">PostgreSQL</span>
+          <span class="chip">ServiceNow (ITSM/ITIL)</span><span class="chip">PRTG</span><span class="chip">Cisco
+            Meraki</span>
+        </div>
+      </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: ajay.yadav@example.com</p>
-        <p>GitHub: github.com/ajayyadav</p>
-        <p>LinkedIn: linkedin.com/in/ajayyadav</p>
+    <!-- PROJECTS -->
+    <section id="projects" class="wrap">
+      <div class="section-head" data-reveal>
+        <div class="eyebrow">builds</div>
+        <h2>Projects</h2>
+      </div>
+
+      <div class="project-card" data-reveal>
+        <div class="project-top">
+          <h3>Intelligent AWS EC2 Cost Optimization System</h3>
+          <span class="project-tag highlight">~30% cost reduction</span>
+        </div>
+        <p class="desc">An end-to-end EC2 cost optimization system in Python, Boto3, and AWS CLI that detects idle
+          instances from CloudWatch CPU/network utilization patterns and triggers automated start/stop actions via
+          EventBridge schedules. Containerized as a Docker image for consistent execution across dev, QA, and
+          production, with an interactive Streamlit dashboard for real-time cost analysis.</p>
+        <div class="project-links">
+          <a href="#" target="_blank" rel="noopener">GitHub Repo ↗</a>
+        </div>
+        <button class="expand-btn" data-expand="arch0">View details <span class="chev">▾</span></button>
+        <div class="arch-panel" id="arch0">
+          <div class="arch-list">
+            <span>Python</span><span>Boto3</span><span>AWS Lambda</span><span>EventBridge</span>
+            <span>CloudWatch</span><span>Docker</span><span>Streamlit</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-reveal>
+        <div class="project-top">
+          <h3>Containerized Todo REST API</h3>
+          <span class="project-tag">Personal build</span>
+        </div>
+        <p class="desc">A production-style REST API deployed on ECS Fargate behind an ALB, backed by RDS, with secrets
+          pulled from Secrets Manager and metrics/alarms in CloudWatch. Infrastructure is fully defined in modular
+          Terraform with remote state, shipped through a GitHub Actions pipeline.</p>
+        <div class="project-links">
+          <a href="#" target="_blank" rel="noopener">GitHub Repo ↗</a>
+        </div>
+        <button class="expand-btn" data-expand="arch1">View details <span class="chev">▾</span></button>
+        <div class="arch-panel" id="arch1">
+          <div class="arch-list">
+            <span>ECS Fargate</span><span>RDS</span><span>ALB</span><span>Terraform</span>
+            <span>GitHub Actions</span><span>CloudWatch</span><span>Secrets Manager</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-reveal>
+        <div class="project-top">
+          <h3>This Portfolio</h3>
+          <span class="project-tag">Live</span>
+        </div>
+        <p class="desc">A static portfolio site hosted on an AWS EC2 instance using Nginx, with Jenkins handling
+          automated deployment on every push to main via GitHub Webhooks — no manual upload steps..</p>
+        <div class="project-links">
+          <a href="#" target="_blank" rel="noopener">GitHub Repo ↗</a>
+        </div>
+        <button class="expand-btn" data-expand="arch2">View details <span class="chev">▾</span></button>
+        <div class="arch-panel" id="arch2">
+          <div class="arch-list">
+            <span>S3 Static Hosting</span><span>GitHub Actions</span><span>IAM (scoped deploy role)</span>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <footer>
-        <p>© 2026 Ajay Yadav | Built with AWS & DevOps</p>
-    </footer>
+    <!-- EXPERIENCE -->
+    <section id="experience" class="wrap">
+      <div class="section-head" data-reveal>
+        <div class="eyebrow">timeline</div>
+        <h2>Experience, Certifications &amp; Education</h2>
+      </div>
+      <div class="timeline" data-reveal>
+        <div class="tl-item">
+          <h3>Cloud &amp; DevOps Engineer</h3>
+          <div class="tl-meta">Wipro Technologies · Mumbai, Maharashtra · November 2021 – Present</div>
+          <ul>
+            <li>Designed a 3-tier AWS architecture — VPCs with public/private subnets, Route 53 DNS, EC2 behind an ALB —
+              for secure, highly available hosting.</li>
+            <li>Administered EC2, S3, RDS, VPC, ALB, and EBS across dev, QA, and production with Multi-AZ deployments.
+            </li>
+            <li>Built Python/Boto3 automation to flag idle EC2 instances and automated start/stop scheduling with Lambda
+              + EventBridge, cutting idle compute costs ~30%.</li>
+            <li>Managed infrastructure as code with Terraform and CloudFormation for repeatable, auditable provisioning.
+            </li>
+            <li>Containerized application components with Docker and worked with core Kubernetes objects (Pods,
+              Deployments, ReplicaSets, Services, ConfigMaps) in non-production clusters.</li>
+            <li>Implemented CloudWatch monitoring, centralized logging, and alarms; enforced least-privilege IAM
+              policies and access reviews.</li>
+            <li>Handled Incident, Service Request, and Change tickets in ServiceNow ITSM following ITIL processes.</li>
+          </ul>
+        </div>
+        <div class="tl-item">
+          <h3>Rockstar Award — Wipro</h3>
+          <div class="tl-meta">October 2024</div>
+          <p>Recognized for outstanding performance, critical incident ownership, and SLA compliance across cloud
+            operations.</p>
+        </div>
+        <div class="tl-item">
+          <h3>AWS Certified Solutions Architect – Associate</h3>
+          <div class="tl-meta">November 2025</div>
+          <p>Validated expertise in designing highly available, fault-tolerant, and cost-optimized AWS architectures
+            with a strong focus on security and identity management.</p>
+        </div>
+        <div class="tl-item">
+          <h3>AWS Cloud Practitioner — Certified · AWS DevOps Professional — In Progress</h3>
+          <div class="tl-meta">Certifications</div>
+        </div>
+        <div class="tl-item">
+          <h3>MTech, Cloud Computing &amp; Distributed Systems</h3>
+          <div class="tl-meta">Final Year</div>
+        </div>
+        <div class="tl-item">
+          <h3>Bachelor of Information Technology (B.Sc IT)</h3>
+          <div class="tl-meta">Mumbai University · June 2018 – Aug 2021 · CGPI 8.87</div>
+        </div>
+      </div>
+    </section>
 
-    <script src="script.js"></script>
+    <!-- CONTACT -->
+    <section id="contact" class="wrap">
+      <div class="contact-grid">
+        <div data-reveal>
+          <div class="eyebrow">connect</div>
+          <h2>Let's Talk</h2>
+          <p>Open to mid-level Cloud Engineer and DevOps Engineer roles. If you're hiring, or just want to talk
+            infrastructure, reach out.</p>
+          <div class="copy-row">
+            <button class="copy-btn" id="copyEmailBtn">ajayyadav8452@gmail.com</button>
+            <span class="copy-note" id="copyNote">Copied to clipboard</span>
+          </div>
+          <div class="copy-row">
+            <a href="tel:+918452909177" class="btn btn-ghost">+91 84529 09177</a>
+            <a href="https://www.linkedin.com/in/ajay-yadav24/" target="_blank" rel="noopener"
+              class="btn btn-ghost">LinkedIn ↗</a>
+          </div>
+        </div>
+        <form id="contactForm">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required placeholder="Your name">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@example.com">
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="What are you building?"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Send Message →</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Built by Ajay Yadav · Deployed on AWS S3 via GitHub Actions</p>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
